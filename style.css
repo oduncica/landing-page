@@ -1,4 +1,8 @@
-#section-un{
+body{
+    margin: 0;
+}
+
+#section1{
     width: 100%;
     height: 280px;
     background-color: #1F2937 ;
@@ -53,3 +57,88 @@ button {
     border-radius: 5px;
     width: 80px;
 }
+
+/* section two styles */
+
+#section2{
+    width: 100%;
+    height: 280px;
+    background-color: #ffffff ;
+
+}
+
+
+
+.square img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.square-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section3 styles */
+#section3{
+    width: 100%;
+    height: 240px;
+    background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #1F2937 ;
+    text-align: center;
+    color: white;
+}
+/* 
+.cr{
+    padding: 25px auto;
+} */
+
+
+#section4{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+
+}  
+
+.blue{
+    width: 75%;
+    height: 120px;
+    margin: 65px auto;
+    background-color: #3882f6;
+
+}
+
+/* .action-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue{
+    display: flex;
+    flex-direction: row;
+}
+ */
