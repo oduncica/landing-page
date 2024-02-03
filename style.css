@@ -1,14 +1,19 @@
 body{
     margin: 0;
+    max-width: 1300px;
 }
 
 #section1{
     width: 100%;
-    height: 280px;
+    height: 300px;
     background-color: #1F2937 ;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 
+}
+
+.text1{
+    margin-left: 60px;
 }
 
 .main-text{
@@ -18,13 +23,18 @@ body{
 
 }
 
-.main-image img{
- width: 450px;
- height: 200px;
-
+.main-image img {
+    width: 390px;
+    height: 160px;
+    object-fit: cover;
+    margin: 40px 150px 10px 20px;
 }
+
+/* header */
+
 .logo{
     color: white;
+    margin-left: 60px;
 }
 
 ul {
@@ -36,13 +46,20 @@ ul {
 ul a {
     text-decoration: none;
     color: white;
-    margin: 0px 55px
+     margin: 0px 25px 
 }
 
 
 .logo-nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+}
+
+.nav{
+    margin-right: 50px;
+
 }
 
 .text-image{
@@ -51,7 +68,7 @@ ul a {
     justify-content: space-between;
 }
 
-button {
+.text-image button {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
@@ -62,7 +79,7 @@ button {
 
 #section2{
     width: 100%;
-    height: 280px;
+    height: 300px;
     background-color: #ffffff ;
 
 }
@@ -75,6 +92,7 @@ button {
     border: 2px solid #3882f6;
     border-radius: 5px;
     margin: 0 15px;
+    object-fit: cover;
 }
 
 .square {
@@ -92,10 +110,14 @@ button {
 }
 
 
+.text-image p {
+    color: white;
+}
+
 /* section3 styles */
 #section3{
     width: 100%;
-    height: 240px;
+    height: 260px;
     background-color: #E5E7EB ;
     display: flex;
     flex-direction: column;
@@ -106,22 +128,21 @@ button {
 
 footer{
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: #1F2937 ;
     text-align: center;
     color: white;
 }
-/* 
+
 .cr{
-    padding: 25px auto;
-} */
+    padding-top: 25px;
+} 
 
 
 #section4{
     width: 100%;
-    height: 280px;
+    height: 240px;
     background-color: white;
-
 }  
 
 .blue{
@@ -129,6 +150,7 @@ footer{
     height: 120px;
     margin: 65px auto;
     background-color: #3882f6;
+    display: flex;
 
 }
 
@@ -136,9 +158,29 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
+ */
 .blue{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    color: white;
 }
- */
+
+
+ .info {
+    text-align: center;
+    font-size: 36px;
+    font-weight:800;
+ }
+
+
+ #section4 button {
+    border: 2px solid white;
+    margin-top: 40px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+
+ }
+
